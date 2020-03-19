@@ -3,4 +3,4 @@
 projekt - zadání - Ukolicek dle možnosti číslo 1 (HTML, JavaScript ) 
 
 Téma - Ukolniček
-Styl - HTML, JavaScript 
+Styl - HTML, JavaScript, css
