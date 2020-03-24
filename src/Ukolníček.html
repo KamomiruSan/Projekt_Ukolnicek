@@ -1,21 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Ukolníček</title>
+    <title>Ukol-projekt</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="Vzhled.css">
 </head>
 <body>
+<div class="body">
     <div class="container">
-    <input type="text" class="txtb" placeholder="Přidej úkol">
-    <div class="notcomp">
-    <h3>Nesplněno</h3>
+        <h1 class="display-2 text-center">ToDO list</h1>
+        <div class="row">
+            <form id="form" class="col-lg-6 col-8 mx-auto">
+                <div class="input-group">
+                    <input id="input" class="form-control" value="Zadej ukol">
+                    <span>
+                        <button id="btn" type="button" class="btn btn-primary">Potvrdit</button>
+                    </span>
+                </div>
+            </form>
+        </div>
+        <div class="row">
+            <ul id="list" class="list col-lg-6 col-8 mx-auto">
+            </ul>
+        </div>
+        <div class="row">
+            <button id="btnClr" type="button" class="btn btn-primary mx-auto btnHide">Vymazat</button>
+        </div>
     </div>
-    <div class="comp">
-    <h3>Splněno</h3>
-    </div>
-    </div>
-     <ul id="myUL">
-     </ul>
+</div>
 </body>
 </html>
